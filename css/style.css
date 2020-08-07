@@ -21,10 +21,35 @@ a {
     justify-content: center;
 }
 
+p {
+    color: #14120f;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    line-height: 2.5em;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    /* padding: 0 250px 30px; */
+
+}
+
 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.section-title {
+    color: #14120f;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
+.section-title span {
+    color: crimson;
 }
 
 /* Hero Section */
@@ -122,10 +147,6 @@ img {
 
 /* Start of our services section styling */
 
-#services {
-
-}
-
 #services .services {
     flex-direction: column;
     text-align: center;
@@ -149,21 +170,12 @@ img {
     color: crimson;
 }
 
-#services .service-top p {
-    font-size: 1.2rem;
-    margin-top: 5px;
-    line-height: 2.5em;
-    font-weight: 300;
-    letter-spacing: .05rem;
-    padding: 0 250px 30px;
-
-}
-
 #services .service-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 #services .service-item {
@@ -179,6 +191,7 @@ img {
     margin: 10px 5px;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 #services .service-item::after {
@@ -202,14 +215,29 @@ img {
 #services .service-item h2 {
     color: white;
     font-size: 2rem;
-    
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
+
+#services .service-item p {
+    color: white;
+    text-align: left;
+    }
 
 
 
 /* End of services section styling */
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Strat of project section styling */
+
+
+
+/* End of project section styling */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* Start of KeyFrames */
 
