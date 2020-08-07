@@ -22,6 +22,7 @@ a {
 }
 
 /* Hero Section */
+
 #hero {
     background-image: url(../img/project-3.jpg);
     background-size: cover;
@@ -111,6 +112,70 @@ a {
 }
 /* End of Hero Section */
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Start of our services section styling */
+
+#services {
+
+}
+
+#services .services {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    max-width: 1500px;
+
+}
+
+#services .services-title {
+    color: #14120f;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
+#services .services-title span {
+    color: crimson;
+}
+
+#services .service-top p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    line-height: 2.5em;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    padding: 0 250px 30px;
+
+}
+
+#services .service-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#services .service-item {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(../img/ben.jpg);
+    background-size: cover;
+    margin: 10px 5px;
+
+}
+/* End of services section styling */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* Start of KeyFrames */
 
