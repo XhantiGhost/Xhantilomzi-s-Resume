@@ -233,6 +233,68 @@ img {
 
 /* Strat of project section styling */
 
+#projects .projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#projects .projects-header h1{
+    margin-bottom: 50px;
+}
+
+#projects .all-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects .project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+#projects .project-info{
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #14120f;
+    color: white;
+}
+
+#projects .project-info h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#projects .project-info h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#projects .project-info p{
+    color: white;
+}
+
+#projects .project-image {
+    height: 300px;
+    overflow: hidden;
+    flex-basis: 50%;
+}
+
 
 
 /* End of project section styling */
