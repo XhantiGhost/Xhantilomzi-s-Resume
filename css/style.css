@@ -21,6 +21,12 @@ a {
     justify-content: center;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* Hero Section */
 
 #hero {
@@ -171,8 +177,36 @@ a {
     background-image: url(../img/ben.jpg);
     background-size: cover;
     margin: 10px 5px;
-
+    position: relative;
+    z-index: 1;
 }
+
+#services .service-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #14120f;
+    opacity: .7;
+    z-index: -1;
+}
+
+#services .service-bottom .icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#services .service-item h2 {
+    color: white;
+    font-size: 2rem;
+    
+}
+
+
+
 /* End of services section styling */
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
