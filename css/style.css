@@ -72,6 +72,16 @@ img {
     color: white;
 }
 
+.brand h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.brand h1 span {
+    color: crimson;
+}
+
 /* Hero Section */
 
 #hero {
@@ -435,6 +445,48 @@ img {
 }
 
 /* End of our contact info section */
+
+/* Start of footer section */
+
+#footer {
+    background-color: #111111;
+}
+
+#footer .footer {
+    flex-direction: column;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer h2 {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    transition: 2s ease-out box-shadow;
+    border-radius: 10px;
+}
+
+#footer .social-item:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0 whitesmoke;
+}
+/* End of footer section  */
 
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
