@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -217,7 +218,7 @@ img {
 /* Hero Section */
 
 #hero {
-    background-image: url(../img/project-3.jpg);
+    background-image: url(../img/amy-hirschi-szrJ3wjzOMg-unsplash.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -337,7 +338,7 @@ img {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(../img/ben.jpg);
+    background-image: url(../img/jakob-owens-uX7UOpU-884-unsplash.jpg);
     background-size: cover;
     margin: 10px 5px;
     position: relative;
