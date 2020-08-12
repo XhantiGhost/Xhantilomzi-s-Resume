@@ -447,9 +447,9 @@ img {
     flex-basis: 50%;
     position: relative;
 }
-
+ 
 #projects .project-image::after {
-    content: '';
+    /* content: ''; */
     position: absolute;
     left: 0;
     top: 0;
@@ -457,7 +457,7 @@ img {
     width: 100%;
     background-color: #14120f;
     opacity: .6;
-}
+} 
 
 #projects .project-image img {
     transition: 2s ease transform;
